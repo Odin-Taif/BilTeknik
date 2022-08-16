@@ -1,0 +1,72 @@
+.scrollNavBlack {
+  background-color: #000;
+  height: 70px;
+  margin-top: -70px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  z-index: 10;
+  border-bottom: 1px solid var(--color-primary2);
+  //-=-=-=-=-=- Media Query-=-=-=-=-
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
+  }
+}
+.scrollNavTrans {
+  background-color: #000;
+  height: 70px;
+  margin-top: -70px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  z-index: 10;
+  //-=-=-=-=-=- Media Query-=-=-=-=-
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
+  }
+}
+
+.navBarContainer {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.navMenu {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: -20px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.navLinks {
+  display: flex;
+  color: #ffff;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 0 10px;
+  height: 100%;
+  font-size: 1rem;
+  a:hover {
+    color: var(--color-gold);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  a:active {
+    color: 1px solid var(--color-gold);
+  }
+}

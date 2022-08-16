@@ -1,0 +1,21 @@
+.btn {
+  font-size: 0.8rem;
+  font-style: bold;
+  max-width: 100px;
+  width: 100%;
+  background-color: var(--color-primary);
+  display: inline-block;
+  color: var(--color-white);
+  padding: 0.4rem;
+  margin: 0.2rem;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+  max-width: 100px;
+  width: 100%;
+  &:hover {
+    background-color: var(--color-primary2);
+    transition: var(--transition);
+    transform: scale(0.98);
+  }
+}

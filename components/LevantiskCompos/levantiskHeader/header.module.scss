@@ -1,0 +1,97 @@
+.headerContainer {
+  height: auto;
+  margin: auto;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 4%;
+  align-items: left;
+  text-align: left;
+}
+.headerTitle {
+  color: var(--color-primary);
+  font-size: 1rem;
+  border-bottom: 1px solid black;
+}
+.headerDiscription {
+  font-size: 1rem;
+}
+
+.headerBanner {
+  max-width: 100%;
+  width: 80%;
+  height: 100%;
+  color: black;
+  margin: auto;
+  border-radius: 0.2rem;
+}
+
+.squre {
+  background-color: aliceblue;
+  border: 0.5rem solid rgba(255, 255, 255, 0.522);
+  padding: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.QrcodeContainer {
+  max-width: 500px;
+  width: auto;
+  height: auto;
+
+  align-items: center;
+  text-align: center;
+  animation: mymove 2s;
+  animation-iteration-count: 2;
+}
+
+.qrImage {
+  &:hover {
+    cursor: pointer;
+  }
+}
+.signa :hover {
+  border: none;
+}
+
+@keyframes mymove {
+  20% {
+    transform: scale(1.1);
+  }
+}
+
+/* ++++++++++++++++++++ Media Querey   ++++++++++++++++ */
+
+@media screen and (max-width: 1200px) {
+  .headerContainer {
+  }
+  .headerText {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .headerContainer {
+    grid-template-columns: 100%;
+  }
+  .headerText {
+    width: 70%;
+    padding: auto;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  .headerContainer {
+    margin: 1rem auto;
+  }
+  .headerText {
+    width: 99%;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .headerContainer {
+  }
+  .headerText {
+    font-size: 0.6rem;
+  }
+}

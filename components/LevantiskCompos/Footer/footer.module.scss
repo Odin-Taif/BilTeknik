@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  text-align: center;
+  padding: 2rem 0rem;
+  margin-top: 4rem;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid var(--color-primary);
+}
+.levantisk {
+  color: var(--color-white);
+  font-size: 1.4rem;
+  &:hover {
+    color: var(--color-gold);
+    cursor: pointer;
+  }
+}
+
+//-=-=-=-=-=-=-=-=-=-=-Media Query|||

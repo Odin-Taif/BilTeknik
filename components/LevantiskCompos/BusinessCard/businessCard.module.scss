@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 10px;
+  align-items: left;
+}
+.container a {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(155, 164, 164);
+  &:hover {
+    color: rgb(4, 147, 166);
+  }
+}
