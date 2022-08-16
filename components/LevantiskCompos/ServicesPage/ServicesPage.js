@@ -1,7 +1,7 @@
 //-=-=-=-=-=-=---=-=-=-=-=-=-=components import
 import { Services, SocialMediaBar } from "../componentsHub";
 //-=-=-=-=-=-=-=-=-=-=- style  import s-=-=-=-=-=
-import style from "./servicesPage.module.scss";
+import style from "./servicesPag.module.scss";
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  data import -=-=-=-=-=-=-=|||
 import { carouselData } from "../dataHub";
 
