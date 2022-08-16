@@ -11,7 +11,7 @@ const Footer = () => {
       <div>
         <span>
           Developed by |
-          <a href="https://www.levantisk.com/" target="_blank">
+          <a href="https://www.levantisk.com/" target="_blank" rel="noreferrer">
             Levantisk.©.DEV
           </a>
         </span>
