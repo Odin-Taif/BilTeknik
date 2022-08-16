@@ -1,5 +1,5 @@
 //-=-=-=-=-=-=---=-=-=-=-=-=-=components import
-import { Services, SocialMediaBar, Header, Carousel } from "../componentsHub";
+import { Services, SocialMediaBar } from "../componentsHub";
 //-=-=-=-=-=-=-=-=-=-=- style  import s-=-=-=-=-=
 import style from "./servicesPage.module.scss";
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  data import -=-=-=-=-=-=-=|||
