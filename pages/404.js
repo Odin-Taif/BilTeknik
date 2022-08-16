@@ -20,7 +20,7 @@ const NotFound = () => {
       clearInterval(interval);
       redirect();
     };
-  }, []);
+  }, [counter]);
   return (
     <div className={style.container}>
       <h2 style={{ color: "red" }}> Sidan hittades inte 404!</h2>
