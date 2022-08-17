@@ -9,7 +9,7 @@ import CheckBox from "./checkBox/checkBox";
 import Carousel from "./carouselSlider/carousel";
 import LoginModal from "./signIn/loginModal";
 import HorizentalSM from "./horizentalSocialMedia/horizentalSM";
-import BussinessCard from "./BussinessCard/bussinessCard";
+import BussinessCard from "./bussinessCard/bussinessCard";
 import SocialMedia from "./socialmedia/socialmedia";
 import ProfilePic from "./profilePic/ProfilePic";
 
