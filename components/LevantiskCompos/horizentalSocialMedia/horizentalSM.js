@@ -6,7 +6,7 @@ import {
   BsGlobe2,
 } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
-import style from "./horizentalSM.module.scss";
+import style from "./smHorizental.module.scss";
 
 const HorizentalSM = () => {
   return (
