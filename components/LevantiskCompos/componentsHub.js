@@ -8,7 +8,7 @@ import SeclectCountry from "./selectCountry/seclectCountry";
 import CheckBox from "./checkBox/checkBox";
 import Carousel from "./carouselSlider/carousel";
 import LoginModal from "./signIn/loginModal";
-import BusinessCard from "./BusinessCard/businessCard";
+import HorizentalSM from "./horizentalSocialMedia/horizentalSM";
 
 export {
   Header,
@@ -21,5 +21,5 @@ export {
   CheckBox,
   Carousel,
   LoginModal,
-  BusinessCard,
+  HorizentalSM,
 };

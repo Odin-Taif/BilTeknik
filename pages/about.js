@@ -10,7 +10,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title> Tjänster </title>
+        <title> OM OSS </title>
         <meta name="keywords" content="web development" />
       </Head>
       <div className={style.container}></div>

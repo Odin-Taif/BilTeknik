@@ -6,9 +6,9 @@ import {
   BsGlobe2,
 } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
-import style from "./businessCard.module.scss";
+import style from "./horizentalSM.module.scss";
 
-const BusinessCard = () => {
+const HorizentalSM = () => {
   return (
     <div className={style.container}>
       <a href="/businessCard" alt="Hire me">
@@ -45,4 +45,4 @@ const BusinessCard = () => {
     </div>
   );
 };
-export default BusinessCard;
+export default HorizentalSM;

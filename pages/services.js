@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <>
       <Head>
-        <title> Tjänster </title>
+        <title> TJÄNSTER </title>
         <meta name="keywords" content="web development" />
       </Head>
       <ServicesPage />
