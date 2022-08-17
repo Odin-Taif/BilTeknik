@@ -12,7 +12,9 @@ const HorizentalSM = () => {
   return (
     <div className={style.container}>
       <Link href="/businessCard" alt="Hire me">
-        <BsWalletFill />
+        <a>
+          <BsWalletFill />
+        </a>
       </Link>
 
       <Link href="/" alt="portfilio">
