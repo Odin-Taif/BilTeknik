@@ -4,11 +4,7 @@ import { animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
 
 //-=-=-=-=-=- componentes import-=-=-=-=-=-=-||
-import {
-  LanguageDrop,
-  LevantiskLogo,
-  LevantiksButton,
-} from "../ReusableComponents/reuseableHub.ts";
+import { LevantiskLogo } from "../ReusableComponents/reuseableHub.ts";
 import { LoginModal } from "../componentsHub";
 
 import MuiDrawer from "../drawer/drawer";

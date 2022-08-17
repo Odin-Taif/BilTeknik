@@ -28,7 +28,7 @@ const SocialMedia = () => {
       <a
         href="https://www.instagram.com/farhatabed/"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         className={style.socialMediaLink}
       >
         <BsInstagram />
@@ -37,7 +37,7 @@ const SocialMedia = () => {
       <a
         href="https://www.facebook.com/people/Bilteknik/100063896716725/"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         className={style.socialMediaLink}
       >
         <BsFacebook />
