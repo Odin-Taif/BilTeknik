@@ -11,9 +11,9 @@ import style from "./horizentalSM.module.scss";
 const HorizentalSM = () => {
   return (
     <div className={style.container}>
-      <a href="/businessCard" alt="Hire me">
+      <Link href="/businessCard" alt="Hire me">
         <BsWalletFill />
-      </a>
+      </Link>
 
       <Link href="/" alt="portfilio">
         <a>
