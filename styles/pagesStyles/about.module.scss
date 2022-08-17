@@ -1,5 +1,27 @@
 .container {
-  background-color: red;
-
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: auto;
+  margin: 2rem;
+  padding: 2rem;
+}
+.article {
   margin: auto;
+  color: var(--color-white);
+  max-width: 600px;
+}
+
+//-=-=-=-=-=-=-=-Medai Querey-=-=-=-=-=
+
+@media screen and (max-width: 769px) {
+  .container {
+    grid-template-columns: 95%;
+    gap: 5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    grid-template-columns: 95%;
+    gap: 5%;
+  }
 }
