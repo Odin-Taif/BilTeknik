@@ -5,6 +5,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 //-=-=-=-=-=- components import
 import BusinessCard from "../BusinessCard/businessCard";
 import { SideBar } from "../componentsHub";
+import { LevantiskLogo } from "../ReusableComponents/reuseableHub.ts";
 
 function MuiDrawer() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -36,6 +37,7 @@ function MuiDrawer() {
           sx={{ p: 2, margin: "1rem auto", padding: "2rem" }}
         >
           <Typography variant="h6" component="div">
+            <h2 style={{ marginBottom: "2rem" }}>BILLTEKNIK</h2>
             <SideBar setDrawerOpen={setDrawerOpen} drawerOpen={drawerOpen} />
             <BusinessCard />
           </Typography>

@@ -76,7 +76,7 @@ const Nav = () => {
 
             <li className={style.navLinks}>
               <Link
-                href={"/"}
+                href={"/about"}
                 smooth={true}
                 duration={500}
                 spy={true}

@@ -6,7 +6,6 @@ import {
   BsGlobe2,
 } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
-
 import style from "./businessCard.module.scss";
 
 const BusinessCard = () => {

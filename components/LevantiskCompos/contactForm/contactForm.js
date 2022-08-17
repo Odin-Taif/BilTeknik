@@ -7,7 +7,6 @@ const ContactForm = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_7054qdy",
@@ -23,7 +22,6 @@ const ContactForm = () => {
           console.log(error.text);
         }
       );
-
     e.target.reset();
   };
   return (

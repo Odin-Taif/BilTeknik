@@ -3,7 +3,7 @@ import { Services, SocialMediaBar } from "../componentsHub";
 //-=-=-=-=-=-=-=-=-=-=- style  import s-=-=-=-=-=
 import style from "./servicesPag.module.scss";
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  data import -=-=-=-=-=-=-=|||
-import { carouselData } from "../dataHub";
+import { bilTeknikData } from "../dataHub";
 
 export default function ServicesPage() {
   return (
@@ -13,7 +13,7 @@ export default function ServicesPage() {
           <SocialMediaBar />
         </div>
         <div>
-          <Services {...carouselData} />
+          <Services {...bilTeknikData} />
         </div>
       </div>
     </>

@@ -8,6 +8,7 @@ import SeclectCountry from "./selectCountry/seclectCountry";
 import CheckBox from "./checkBox/checkBox";
 import Carousel from "./carouselSlider/carousel";
 import LoginModal from "./signIn/loginModal";
+import BusinessCard from "./BusinessCard/businessCard";
 
 export {
   Header,
@@ -20,4 +21,5 @@ export {
   CheckBox,
   Carousel,
   LoginModal,
+  BusinessCard,
 };

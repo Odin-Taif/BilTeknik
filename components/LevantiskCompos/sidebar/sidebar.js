@@ -13,23 +13,14 @@ const SideBar = ({ setDrawerOpen, drawerOpen }) => {
           </Link>
         </li>
         <li className={style.sideBarItem}>
-          <Link href="/">
+          <Link href="/services">
             <a onClick={() => setDrawerOpen(false)}> TJÄNSTER</a>
           </Link>
         </li>
-        <li className={style.sideBarItem}>
-          <Link href="/about">
-            <a onClick={() => setDrawerOpen(false)}> $TORE</a>
-          </Link>
-        </li>
+
         <li className={style.sideBarItem}>
           <Link href="/about">
             <a onClick={() => setDrawerOpen(false)}> OM OSS</a>
-          </Link>
-        </li>
-        <li className={style.sideBarItem}>
-          <Link href="/about">
-            <a onClick={() => setDrawerOpen(false)}> KONTACT</a>
           </Link>
         </li>
       </ul>

@@ -2,19 +2,19 @@ import mekaniker from "../../public/Assets/SVG/mekanik.svg";
 import motordiagnostik from "../../public/Assets/SVG/motordiagnostik.svg";
 import oljebyte from "../../public/Assets/SVG/oljebyte.svg";
 import rekond from "../../public/Assets/SVG/rekond.svg";
-import styr from "../../public/Assets/SVG/styr.svg";
+import luft from "../../public/Assets/SVG/luft.svg";
 import batteri from "../../public/Assets/SVG/batteri.svg";
 import deck from "../../public/Assets/SVG/deck.svg";
 import elsystem from "../../public/Assets/SVG/elsystem.svg";
 import kaross from "../../public/Assets/SVG/kaross.svg";
-import kabinfilter from "../../public/Assets/SVG/kabinfilter.svg";
 import hjuljustering from "../../public/Assets/SVG/hjuljustering.svg";
 import vexl from "../../public/Assets/SVG/vexl.svg";
 import avgassystem from "../../public/Assets/SVG/avgassystem.svg";
-import svg14 from "../../public/Assets/SVG/svg14.svg";
+import styr from "../../public/Assets/SVG/broms.svg";
 import filter from "../../public/Assets/SVG/filter.svg";
+import motor from "../../public/Assets/SVG/motor.svg";
 
-export const carouselData = {
+export const bilTeknikData = {
   id: "1",
   title: "Our Services",
   cards: [
@@ -90,7 +90,7 @@ export const carouselData = {
     },
     {
       id: "11",
-      cardIcon: svg14,
+      cardIcon: luft,
       cardH1: "Luftkonditionering",
       descir: "create your app on both IOS and Andriod",
     },
@@ -110,6 +110,12 @@ export const carouselData = {
       id: "14",
       cardIcon: vexl,
       cardH1: "Växellåder",
+      descir: "create your app on both IOS and Andriod",
+    },
+    {
+      id: "14",
+      cardIcon: motor,
+      cardH1: " Motor tvätta",
       descir: "create your app on both IOS and Andriod",
     },
   ],

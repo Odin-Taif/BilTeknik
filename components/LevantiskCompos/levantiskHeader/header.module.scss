@@ -24,6 +24,8 @@
   color: black;
   margin: auto;
   border-radius: 0.2rem;
+  align-items: center;
+  text-align: center;
 }
 
 .squre {
@@ -31,14 +33,13 @@
   border: 0.5rem solid rgba(255, 255, 255, 0.522);
   padding: 1rem;
   margin: auto;
-  text-align: center;
 }
 
 .QrcodeContainer {
+  margin: auto;
   max-width: 500px;
   width: auto;
   height: auto;
-
   align-items: center;
   text-align: center;
   animation: mymove 2s;

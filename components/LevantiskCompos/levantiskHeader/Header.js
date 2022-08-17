@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import QrImage from "../../../public/Assets/qrcode.png";
-import { Modal, ContactForm } from "../componentsHub";
+import { Modal, ContactForm, SlideReviewApp } from "../componentsHub";
 import style from "./header.module.scss";
 
 const Header = () => {

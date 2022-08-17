@@ -3,7 +3,7 @@ import { SocialMediaBar, Header, Carousel } from "../componentsHub";
 //-=-=-=-=-=-=-=-=-=-=- style  import s-=-=-=-=-=
 import style from "./homePage1.module.scss";
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  data import -=-=-=-=-=-=-=|||
-import { carouselData } from "../dataHub";
+import { bilTeknikData } from "../dataHub";
 
 export default function HomePage() {
   return (
@@ -14,7 +14,7 @@ export default function HomePage() {
         </div>
         <div>
           <Header />
-          <Carousel {...carouselData} />
+          <Carousel {...bilTeknikData} />
         </div>
       </div>
     </>

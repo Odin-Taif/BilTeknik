@@ -16,8 +16,9 @@
   --color-bg: #121315;
   --color-bg-var: #64a3f0;
   --color-primary: #22114f;
-  --color-primary2: #424630a4;
-  --color-gold: #c6b115;
+  --color-primary2: #170547;
+  --color-link: #033e76;
+  --color-gold: #897702;
   --color-primary-variant: #384555;
   --color-white: #ffffff;
   --color-black: #000000;
@@ -26,6 +27,9 @@
   --container-width-md: 86%;
   --container-width-sm: 95%;
   --transition: all 400ms ease-in-out;
+}
+a:hover {
+  color: var(--color-link);
 }
 
 body {

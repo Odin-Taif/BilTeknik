@@ -1,5 +1,20 @@
-const About = () => {
-  return <div>{/* <MuiDrawer /> */}</div>;
-};
+import Head from "next/head";
+import {
+  BusinessCard,
+  ContactForm,
+} from "../components/LevantiskCompos/componentsHub";
 
-export default About;
+import style from "../styles/pagesStyles/about.module.scss";
+
+export default function About() {
+  return (
+    <>
+      <Head>
+        <title> Tjänster </title>
+        <meta name="keywords" content="web development" />
+      </Head>
+      <div className={style.container}></div>
+      <ContactForm />
+    </>
+  );
+}
