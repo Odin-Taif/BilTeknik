@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 //-=-=-=-=-=- componentes import-=-=-=-=-=-=-||
 import { LevantiskLogo } from "../ReusableComponents/reuseableHub.ts";
@@ -15,6 +16,7 @@ import style from "./navbar.module.scss";
 import { FaStoreAlt } from "react-icons/fa";
 
 const Nav = () => {
+  const router = useRouter();
   //===============Smooth scrollin section.
   const [scrollNav, setScrollNav] = useState(false);
   const [showLoginModal, setShowLoginModal] = useState(false);
@@ -46,40 +48,27 @@ const Nav = () => {
         <div className={style.navBarContainer}>
           <ul className={style.navMenu}>
             <li className={style.navLinks}>
-              <Link
-                href={"/"}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                HEM
+              <Link href={"/"}>
+                <a className={router.pathname == "/" ? style.active : ""}>
+                  HEM
+                </a>
               </Link>
             </li>
             <li className={style.navLinks}>
-              <Link
-                href={"/services"}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                TJÄNSTER
+              <Link href={"/services"}>
+                <a
+                  className={router.pathname == "/services" ? style.active : ""}
+                >
+                  TJÄNSTER
+                </a>
               </Link>
             </li>
 
             <li className={style.navLinks}>
-              <Link
-                href={"/about"}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                OM OSS
+              <Link href={"/about"}>
+                <a className={router.pathname == "/about" ? style.active : ""}>
+                  OM OSS
+                </a>
               </Link>
             </li>
           </ul>

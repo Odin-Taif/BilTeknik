@@ -16,12 +16,6 @@ const HorizentalSM = () => {
           <BsWalletFill />
         </a>
       </Link>
-
-      <Link href="/" alt="portfilio">
-        <a>
-          <BsGlobe2 />
-        </a>
-      </Link>
       <a
         href="mailto:Bil-teknik@outlook.com"
         target="_blank"

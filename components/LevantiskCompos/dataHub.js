@@ -30,93 +30,104 @@ export const bilTeknikData = {
       cardIcon: rekond,
       cardH1: "Bilrekond",
       descir:
-        " Vi gör felsökningar, service och reparationer på bilar, motorcyklar och andra fordon",
+        "En rekonditionering är en grundlig rengöring av bilen som återskapar känslan av en ny bil.",
     },
     {
       id: "3",
       cardIcon: avgassystem,
       cardH1: "Avgassystem utbyte",
-      descir: "Vi har avgassystem för nästan alla bilmärken.",
+      descir:
+        "Du hittar billiga Hållare, avgassystem och andra Avgassystem reservdelar hos oss",
     },
     {
       id: "4",
       cardIcon: batteri,
       cardH1: "Batteri",
-      descir: "De bästa priserna på alla typer av delar till din bil.",
+      descir: "De bästa priserna på alla typer av batterier till din bil.",
     },
     {
       id: "5",
       cardIcon: motordiagnostik,
       cardH1: "Bilmotordiagnostik",
       descir:
-        "Markting is one of the main blocks that stregthen your business ",
+        "En fullt fungerande motor är av största vikt för en jämn gång och en god bränslekonomi.",
     },
     {
       id: "6",
       cardIcon: hjuljustering,
       cardH1: "Bromsservice",
-      descir: "We help you with any digital burden that comes your way.",
+      descir:
+        "En bil med korrekt inställda hjul drar mindre bensin, och sliter däcken långsammare.",
     },
     {
       id: "7",
       cardIcon: filter,
       cardH1: "Byte av luft-och kabinfilter",
-      descir: "From 3D animtaion to Dron Vediography.",
+      descir:
+        "När ska du byta kabinluftfilter? — ? Säsongsvädret på hösten och stora mängder pollen på våren är två huvudsakliga orsaker som förkortar kabinfilteret",
     },
 
     {
       id: "8",
       cardIcon: deck,
       cardH1: "Däck",
-      descir: "create your app on both IOS and Andriod",
+      descir: "Billiga priser på Däck, Fälgar, Sommardäck & Vinterdäck.",
     },
     {
       id: "9",
       cardIcon: elsystem,
       cardH1: "Elsystem",
-      descir: "create your app on both IOS and Andriod",
+      descir:
+        "Elsystemet i bilen är lite extra känsligt under vinterhalvåret och då kan det vara bra att ha lite extra koll på det.",
     },
     {
       id: "10",
       cardIcon: hjuljustering,
       cardH1: "Hjuljustering",
-      descir: "create your app on both IOS and Andriod",
+      descir:
+        "En hjulinställning är en avancerad uppmätning av din bils hjulgeometri. Denna mäts i tre olika värden; vinkeln in eller ut från hjulaxeln.",
     },
     {
       id: "11",
       cardIcon: kaross,
       cardH1: "Kaross och Klädsel",
-      descir: "create your app on both IOS and Andriod",
+      descir:
+        "Dags att uppgradera och fräscha upp sätena i bilen? Här hittar du bilklädslar i tyg och skinn från populära varumärken till riktigt bra priser.",
     },
     {
       id: "12",
       cardIcon: luft,
       cardH1: "Luftkonditionering",
-      descir: "create your app on both IOS and Andriod",
+      descir:
+        "Behöver du serva eller laga en trasig AC? Då har du kommit rätt.",
     },
     {
       id: "13",
       cardIcon: oljebyte,
       cardH1: "Oljebyte",
-      descir: "create your app on both IOS and Andriod",
+      descir:
+        "Här kan du enkelt boka tid för att göra oljebyte. Vi är en verkstad för alla bilmärken.",
     },
     {
       id: "14",
       cardIcon: styr,
       cardH1: "Styr-och fjädringssystem",
-      descir: "create your app on both IOS and Andriod",
+      descir:
+        " De två vanligaste typerna av fjädringssystem är MacPherson-fjädring och dubbel länkarmsfjädring. På Bilteknik hanterar vi alla typer av fjädringssystem.",
     },
     {
       id: "15",
       cardIcon: vexl,
-      cardH1: "Växellåder",
-      descir: "create your app on both IOS and Andriod",
+      cardH1: "Växellådor",
+      descir:
+        "Vi hjälper dig oavsett vad du har för fabrikat på din bil och din växellåda. Kontakta oss! Över 40 år i branschen.",
     },
     {
       id: "16",
       cardIcon: motor,
-      cardH1: " Motor tvätta",
-      descir: "create your app on both IOS and Andriod",
+      cardH1: "Motortvätta",
+      descir:
+        "En motortvätt är bra då och då eftersom det bildas avlagringar inuti motorn och dessa är det önskvärt att få bort.",
     },
   ],
 };

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import SocialMedia from "../socialmedia/socialmedia";
+// import SocialMedia from "../socialmedia/socialmedia";
 import style from "./bussinessCard.module.scss";
 
 const BussinessCard = () => {
@@ -21,7 +21,7 @@ const BussinessCard = () => {
           <h2>BILTEKNIK</h2>
         </div>
       </div>
-      <SocialMedia />
+      {/* <SocialMedia /> */}
     </div>
   );
 };
