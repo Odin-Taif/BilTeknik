@@ -17,7 +17,7 @@ const HorizentalSM = () => {
         </a>
       </Link>
       <a
-        href="mailto:Bil-teknik@outlook.com"
+        href="mailto:bil-teknik@outlook.com"
         target="_blank"
         rel="noreferrer"
         alt="Email"

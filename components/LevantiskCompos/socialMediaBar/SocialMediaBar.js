@@ -10,11 +10,7 @@ const SocialMediaBar = () => {
       <a href="tel:018136001" target="_blank" rel="noreferrer" alt="Call">
         <BiPhoneCall />
       </a>
-      <a
-        href="mailto:mailto:Bil-teknik@outlook.com"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="mailto:bil-teknik@outlook.com" target="_blank" rel="noreferrer">
         <MdOutlineMailOutline />
       </a>
       <a
