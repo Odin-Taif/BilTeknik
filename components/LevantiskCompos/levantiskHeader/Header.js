@@ -12,7 +12,7 @@ const Header = () => {
         <ContactForm />
         <div className={style.headerBanner}>
           <div className={style.squre}>
-            <Modal onClose={() => setShow(false)} show={show} />
+            {/* <Modal onClose={() => setShow(false)} show={show} /> */}
             <h1 className={style.headerTitle}> BILLTEKNIK</h1>
             <h1 className={style.headerDiscription}>
               Välkommen till ett helt nytt sätt att tvätta och raparera bilen.
